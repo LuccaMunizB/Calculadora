@@ -1,0 +1,16 @@
+.botao{
+    width: 17vh;
+    height: 10vh;
+    background-color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.botao:hover{
+    border: 1px solid #000;
+}
+
+.botao:active{
+    background-color: #d4cfcf;
+}
+

@@ -1,0 +1,70 @@
+.tela{
+    width: 75vh;
+    height: 85vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 5vh;
+    border-radius: 15px;
+    overflow:hidden;
+    word-break: break-all;  
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.linha6{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.5vh;
+}
+
+.conteudo{
+    width: 75vh;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 0;
+}
+
+.cont{
+    color: black;
+    margin-right: 5vh;
+}
+
+#botao{
+    background-image: url('../Img/excluir.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.ModoNoturno{
+    display: flex;
+    align-items: flex-start;
+    margin: 3vh 0 0 10vh;
+}
+
+.ButLua{
+    width: 25px;
+    height: 25px;
+    background-image: url('../Img/lua-crescente.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: transparent;
+    outline: 2px solid white;
+    border-color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.ButLua:hover{
+    outline: 1px solid black;
+}
+
+.ButLua:active{
+    background-color: #d4cfcf;
+}
